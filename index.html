@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+  <title>Social Network - Bautista Cutraro</title>
+</head>
+<body>
+  <header class="p-fixed">
+    <div class="container">
+      <div class="row justify-content-start">
+        <div class="col-auto hidden-sm-down logo">
+          <a href="#">
+            <img src="img/logo.png" alt="">
+          </a>
+        </div>
+        <div class="col-12 col-sm-8 col-lg-6 search flex-last flex-sm-unordered">
+            <form>
+              <div class="row no-gutters align-items-center">
+                  <div class="col-10">
+                    <input type="text" class=" border-0" placeholder="Amigos, Lugares y cosas que te gustan">
+                  </div>
+                  <div class="col-2">
+                    <button class="border-0"><i class="fa fa-search"></i></button>
+                  </div>
+                </div>
+            </form>
+          </div>
+        <nav class="col-12 col-sm-3 col-lg-2 d-flex justify-content-around justify-content-sm-between mb-3 mb-sm-0 ml-auto menu p-0">
+          <a href="#"><i class="fa fa-users"></i></a>
+          <a href="#"><i class="fa fa-bell"></i></a>
+          <a href="#"><i class="fa fa-comments"></i></a>
+          <a href="#" class="d-inline-block"><img src="img/persona2.jpg" width="22" height="22" class="rounded-circle" alt=""></a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="row">
+      <!-- col nav -->
+      <div class="col-12 col-md-3 menu-left pl-md-0">
+        <!-- nav -->
+        <nav class="navbar navbar-toggleable-sm px-0 py-1 mx-auto">
+          <div class="container p-0 d-flex align-items-center">
+            <!-- icon bar -->
+            <i class="navbar-toggler navbar-toggler-right fa fa-bars mb-0" data-toggle="collapse" data-target="#bc-menu" aria-controls="bc-menu" aria-expanded="false" aria-label="menu" id="btn-bar">
+            </i>
+            <!-- navbar-brand -->
+            <a href="#" class="navbar-brand text-white hidden-md-up ml-2">Menu</a>
+            <!-- modal collapse -->
+            <div class="navbar-collapse collapse hidden-md-up mr-auto fade w-75 hidden-md-up" id="bc-menu">
+              <div class="modal-body p-4 p-md-0 w-100" id="modal-body">
+                <!-- close button -->
+                <button type="button" name="button" class="close mb-5 d-md-none" id="close">
+                  <span aria-hidden="true" class="text-white">&times;</span>
+                </button>
+
+                <ul class="p-0 mt-4 mt-md-0">
+                  <li class="nav-item"><a href="#" class="d-block nav-link p-3 px-md-0 py-md-1"><i class="fa fa-users mr-3"></i>Amigos</a></li>
+                  <li class="nav-item"><a href="#" class="d-block nav-link p-3 px-md-0 py-md-1"><i class="fa fa-envelope-o mr-3"></i>Mensajes</a></li>
+                  <li class="nav-item"><a href="#" class="d-block nav-link p-3 px-md-0 py-md-1"><i class="fa fa-thumbs-o-up mr-3"></i>Páginas</a></li>
+                  <li class="nav-item"><a href="#" class="d-block nav-link p-3 px-md-0 py-md-1"><i class="fa fa-play mr-3"></i>Videos</a></li>
+                  <li class="nav-item"><a href="#" class="d-block nav-link p-3 px-md-0 py-md-1"><i class="fa fa-picture-o mr-3"></i>Imágenes</a></li>
+                  <li class="nav-item"><a href="#" class="d-block nav-link p-3 px-md-0 py-md-1"><i class="fa fa-music mr-3"></i>Música</a></li>
+                  <li class="nav-item"><a href="#" class="d-block nav-link p-3 px-md-0 py-md-1"><i class="fa fa-book mr-3"></i>Libros</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+
+      <!-- col principal-container -->
+      <div class="col mt-4">
+          <!-- comentar -->
+        <div class="publicar mb-4">
+          <div class="row jsutify-content-center">
+            <div class="col-auto image pl-3 mr-3">
+              <a href="#" class="d-inline-block mt-4 hidden-xs-down">
+                <img src="img/persona1.jpg" class="rounded-circle" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <form>
+                <textarea name="" id="" class="form-control border-0 textarea p-3" placeholder="Publicar Mensaje"></textarea>
+                <div class="container-buttons d-flex justify-content-between">
+                  <div class="media">
+                    <a href="#" class="mr-3"><i class="fa fa-picture-o"></i></a>
+                    <a href="#" class="mr-3"><i class="fa fa-play"></i></a>
+                    <a href="#" class="mr-3"><i class="fa fa-music"></i></a>
+                  </div>
+                  <div>
+                    <button class="text-white">Publicar</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+          <!-- Publicacion 1 -->
+        <div class="publicacion mb-5">
+        <div class="row">
+          <div class="col-auto image pl-3 mr-3">
+            <a href="#">
+              <img src="img/persona5.jpg" class="rounded-circle" alt="">
+            </a>
+          </div>
+          <div class="col">
+            <div class="post">
+              <a href="#" class="name d-inline-block">Andrea Lorem Ipsum</a>
+              <p class="text p-3 mb-3 text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+              </p>
+              <div class="buttons-box d-flex justify-content-between align-items-center mb-4">
+                <button class="d-inline-block text-white border-0"><i class="fa fa-thumbs-o-up"></i></button>
+                <p class="mb-0">155 <i class="fa fa-thumbs-o-up"></i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- comentarios -->
+        <div class="row">
+          <div class="col-10 offset-2 mb-4 image2">
+            <a href="#bloque1" aria-expanded="false" aria-controls="bloque1" data-toggle="collapse">Cargar Comentarios...</a>
+
+            <!-- collapse -->
+            <div class="collapse pt-3 pl-3" rol="tabpanel" aria-labelledby="heading" id="bloque1">
+              <!-- respuesta 1 -->
+              <div class="row respuestas mb-0">
+                <div class="col-auto">
+                  <a href="#">
+                    <img src="img/persona3.jpg" class="rounded-circle" alt="">
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="#" class="name d-inline-block">Andrea Lorem Ipsum</a>
+                  <p class="respuesta mb-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, eum.</p>
+                  <a href="#" class="respuesta">Me gusta</a>
+                </div>
+              </div>
+              <!-- respuesta 2 -->
+              <div class="row respuestas mt-3 mb-0">
+                <div class="col-auto">
+                  <a href="#">
+                    <img src="img/persona1.jpg" class="rounded-circle" alt="">
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="#" class="name d-inline-block">Andrea Lorem Ipsum</a>
+                  <p class="respuesta mb-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat obcaecati ut atque nesciunt.</p>
+                  <a href="#" class="respuesta">Me gusta</a>
+                </div>
+              </div>
+              <!-- respuesta 3 -->
+              <div class="row respuestas mt-3 mb-0">
+                <div class="col-auto">
+                  <a href="#">
+                    <img src="img/persona5.jpg" class="rounded-circle" alt="">
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="#" class="name d-inline-block">Andrea Lorem Ipsum</a>
+                  <p class="respuesta mb-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, maiores eligendi quo reprehenderit ipsum! Sapiente necessitatibus minima explicabo ipsa pariatur eveniet eius quibusdam, enim iste adipisci vero quas aspernatur autem.</p>
+                  <a href="#" class="respuesta">Me gusta</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- comentar -->
+        <div class="row">
+          <div class="col-10 offset-2 image2 pl-3 mr-3">
+            <div class="row no-gutters coment">
+              <div class="col-auto d-flex justify-content-start">
+                <a href="#">
+                  <img src="img/persona1.jpg" class="rounded-circle" alt="">
+                </a>
+              </div>
+              <div class="col px-3">
+                <textarea type="text" class="form-control" placeholder="Comentario"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+          <!-- Publicacion 2 -->
+        <div class="publicacion mb-5">
+          <div class="row">
+            <div class="col-auto image pl-3 mr-3">
+              <a href="#">
+                <img src="img/persona4.jpg" class="rounded-circle" alt="">
+              </a>
+            </div>
+            <div class="col border-bottom">
+              <div class="post">
+                  <a href="#" class="name d-inline-block">José Lorem Ipsum</a>
+                  <div class="p-3 mb-3 img-container">
+                    <img src="img/paisaje1.jpg" class="img-fluid" alt="">
+                  </div>
+                <div class="buttons-box d-flex justify-content-between align-items-center mb-4">
+                  <button class="d-inline-block text-white border-0"><i class="fa fa-thumbs-o-up"></i></button>
+                  <p class="mb-0">7118 <i class="fa fa-thumbs-o-up"></i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- comentarios -->
+          <div class="row">
+            <div class="col-10 offset-2 mb-4 image2">
+              <a href="#bloque2" aria-expanded="false" aria-controls="bloque1" data-toggle="collapse">Cargar Comentarios...</a>
+
+              <!-- collapse -->
+              <div class="collapse pt-3 pl-3" rol="tabpanel" aria-labelledby="heading" id="bloque2">
+                <!-- respuesta 1 -->
+                <div class="row respuestas mb-0">
+                  <div class="col-auto">
+                    <a href="#">
+                      <img src="img/persona3.jpg" class="rounded-circle" alt="">
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="#" class="name d-inline-block">Andrea Lorem Ipsum</a>
+                    <p class="respuesta mb-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, eum.</p>
+                    <a href="#" class="respuesta">Me gusta</a>
+                  </div>
+                </div>
+                <!-- respuesta 2 -->
+                <div class="row respuestas mt-3 mb-0">
+                  <div class="col-auto">
+                    <a href="#">
+                      <img src="img/persona1.jpg" class="rounded-circle" alt="">
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="#" class="name d-inline-block">Andrea Lorem Ipsum</a>
+                    <p class="respuesta mb-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat obcaecati ut atque nesciunt.</p>
+                    <a href="#" class="respuesta">Me gusta</a>
+                  </div>
+                </div>
+                <!-- respuesta 3 -->
+                <div class="row respuestas mt-3 mb-0">
+                  <div class="col-auto">
+                    <a href="#">
+                      <img src="img/persona5.jpg" class="rounded-circle" alt="">
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="#" class="name d-inline-block">Andrea Lorem Ipsum</a>
+                    <p class="respuesta mb-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, maiores eligendi quo reprehenderit ipsum! Sapiente necessitatibus minima explicabo ipsa pariatur eveniet eius quibusdam, enim iste adipisci vero quas aspernatur autem.</p>
+                    <a href="#" class="respuesta">Me gusta</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- comentar -->
+          <div class="row">
+            <div class="col-10 offset-2 image2 pl-3 mr-3">
+              <div class="row no-gutters coment">
+                <div class="col-auto d-flex justify-content-start">
+                  <a href="#">
+                    <img src="img/persona1.jpg" class="rounded-circle" alt="">
+                  </a>
+                </div>
+                <div class="col px-3">
+                  <textarea type="text" class="form-control" placeholder="Comentario"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <!-- Publicacion 3 -->
+        <div class="publicacion mb-5">
+          <div class="row">
+            <div class="col-auto image pl-3 mr-3">
+              <a href="#">
+                <img src="img/persona2.jpg" class="rounded-circle" alt="">
+              </a>
+            </div>
+            <div class="col border-bottom">
+              <div class="post">
+                  <a href="#" class="name d-inline-block">Juan Lorem Ipsum</a>
+                  <div class="p-3 mb-3 img-container">
+                    <img src="img/paisaje2.jpg" class="img-fluid" alt="">
+                  </div>
+                <div class="buttons-box d-flex justify-content-between align-items-center mb-4">
+                  <button class="d-inline-block text-white border-0"><i class="fa fa-thumbs-o-up"></i></button>
+                  <p class="mb-0">15237 <i class="fa fa-thumbs-o-up"></i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- comentarios -->
+          <div class="row">
+            <div class="col-10 offset-2 mb-4 image2">
+              <a href="#bloque3" aria-expanded="false" aria-controls="bloque1" data-toggle="collapse">Cargar Comentarios...</a>
+
+              <!-- collapse -->
+              <div class="collapse pt-3 pl-3" rol="tabpanel" aria-labelledby="heading" id="bloque3">
+                <!-- respuesta 1 -->
+                <div class="row respuestas mb-0">
+                  <div class="col-auto">
+                    <a href="#">
+                      <img src="img/persona3.jpg" class="rounded-circle" alt="">
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="#" class="name d-inline-block">Andrea Lorem Ipsum</a>
+                    <p class="respuesta mb-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, eum.</p>
+                    <a href="#" class="respuesta">Me gusta</a>
+                  </div>
+                </div>
+                <!-- respuesta 2 -->
+                <div class="row respuestas mt-3 mb-0">
+                  <div class="col-auto">
+                    <a href="#">
+                      <img src="img/persona1.jpg" class="rounded-circle" alt="">
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="#" class="name d-inline-block">Andrea Lorem Ipsum</a>
+                    <p class="respuesta mb-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat obcaecati ut atque nesciunt.</p>
+                    <a href="#" class="respuesta">Me gusta</a>
+                  </div>
+                </div>
+                <!-- respuesta 3 -->
+                <div class="row respuestas mt-3 mb-0">
+                  <div class="col-auto">
+                    <a href="#">
+                      <img src="img/persona5.jpg" class="rounded-circle" alt="">
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="#" class="name d-inline-block">Andrea Lorem Ipsum</a>
+                    <p class="respuesta mb-2 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, maiores eligendi quo reprehenderit ipsum! Sapiente necessitatibus minima explicabo ipsa pariatur eveniet eius quibusdam, enim iste adipisci vero quas aspernatur autem.</p>
+                    <a href="#" class="respuesta">Me gusta</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- comentar -->
+          <div class="row">
+            <div class="col-10 offset-2 image2 pl-3 mr-3">
+              <div class="row no-gutters coment">
+                <div class="col-auto d-flex justify-content-start">
+                  <a href="#">
+                    <img src="img/persona1.jpg" class="rounded-circle" alt="">
+                  </a>
+                </div>
+                <div class="col px-3">
+                  <textarea type="text" class="form-control" placeholder="Comentario"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Publicidades -->
+      <div class="col-md-3 publicity hidden-md-down mt-3">
+        <h3 class="text-center">Publicidad</h3>
+        <div class="ads">
+          <a href="#" class="mb-3 d-inline-block"><img src="img/ad1.jpg" class="img-fluid" alt=""></a>
+          <a href="#" class="mb-3 d-inline-block"><img src="img/ad2.jpg" class="img-fluid" alt=""></a>
+          <a href="#" class="mb-3 d-inline-block"><img src="img/ad3.jpg" class="img-fluid" alt=""></a>
+        </div>
+        <footer>
+          <a href="#" class="mr-2">Privacidad</a>
+          <a href="#" class="mr-2">Condiciones</a>
+          <a href="#" class="mr-2">Publicidad</a>
+          <p class="mt-2">Red Social © 2017</p>
+        </footer>
+        </div>
+      </div>    
+  </main>
+
+  <div class="hidden-md-up" id="modalBackdrop"></div>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/tether.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
